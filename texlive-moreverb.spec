@@ -1,3 +1,9 @@
+# revision 22126
+# category Package
+# catalog-ctan /macros/latex/contrib/moreverb
+# catalog-date 2011-04-18 22:03:09 +0200
+# catalog-license lppl
+# catalog-version 2.3a
 Name:		texlive-moreverb
 Version:	2.3a
 Release:	1
@@ -48,6 +54,7 @@ using the fancyvrb package in place of moreverb.
 #- source
 %doc %{_texmfdistdir}/source/latex/moreverb/moreverb.dtx
 %doc %{_texmfdistdir}/source/latex/moreverb/moreverb.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ using the fancyvrb package in place of moreverb.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
