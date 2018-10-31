@@ -6,7 +6,7 @@
 # catalog-version 2.3a
 Name:		texlive-moreverb
 Version:	2.3a
-Release:	10
+Release:	11
 Summary:	Extended verbatim
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/moreverb
