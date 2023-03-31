@@ -1,6 +1,6 @@
 Name:		texlive-moreverb
 Version:	22126
-Release:	1
+Release:	2
 Summary:	Extended verbatim
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/moreverb
