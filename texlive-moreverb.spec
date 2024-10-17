@@ -3,7 +3,7 @@ Version:	22126
 Release:	2
 Summary:	Extended verbatim
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/moreverb
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/moreverb
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/moreverb.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/moreverb.doc.r%{version}.tar.xz
